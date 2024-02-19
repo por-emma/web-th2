@@ -1,0 +1,77 @@
+.web-layout {
+    width: 960px;
+    font-family: 'Times New Roman';
+    margin: auto;
+}
+
+.nav {
+    width: 100%;
+    background-color: #e6e6fa;
+    height: fit-content;
+    padding-left: 10px;
+}
+
+.nav a {
+    text-transform: uppercase;
+    color: #800080;
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px;
+}
+
+.nav a:hover {
+    color: #ffff00;
+}
+
+.header {
+    width: 100%;
+    text-align: center;
+}
+
+.bod {
+}
+
+.section {
+    width: 70%;
+    height: 50%;
+    float: left;
+    display: inline-block;
+    background-color: #add8e6;
+}
+
+.section .content {
+    width: 48%;
+    text-align: justify;
+    float: left;
+    display: inline-block;
+    padding-right: 2%;
+}
+
+.section .form {
+    width: 48%;
+    height: 50%;
+    float: left;
+    display: inline-block;
+    padding-left: 2%;
+}
+
+.aside {
+    width: 30%;
+    display: inline-block;
+}
+
+.aside .item {
+    display: block;
+    color: #ff0000;
+}
+
+.aside img {
+    width: 300px;
+    height: 170px;
+}
+
+.footer {
+    width: 100%;
+    background-color: #adff2f;
+    padding: 20px;
+}
